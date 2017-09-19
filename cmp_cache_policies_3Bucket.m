@@ -27,16 +27,17 @@ const=10^2;
 F_a=5;
 F_b=const*F_a;
 F_c=F_a;
-Freshness_requirment=[F_a F_b F_c];
 
 
-global Router1_hit_count
+% global Router1_hit_count
 
 ProbForSavingVectorR1=10;%0.2:0.2:1.0;%1.0;
 CacheSize=10:5:40;
 
 Prob_a=0.4;%0.25:0.05:0.45;
+Prob_a=0.4;%0.25:0.05:0.45;
 beta=0.8;%0.5:0.3:1.7;
+
 
 %% Least Expected Variables :::::::::::::::::::::::::::::::::::::::::::::::
 R1_hit_count_Uni_LeastExpe=zeros(Producers,length(CacheSize));
