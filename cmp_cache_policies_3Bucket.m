@@ -32,7 +32,7 @@ Freshness_requirment=[F_a F_b F_c];
 
 global Router1_hit_count
 
-ProbForSavingVectorR1=1;%0.2:0.2:1.0;%1.0;
+ProbForSavingVectorR1=10;%0.2:0.2:1.0;%1.0;
 CacheSize=10:5:40;
 
 Prob_a=0.4;%0.25:0.05:0.45;
